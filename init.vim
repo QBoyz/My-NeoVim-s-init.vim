@@ -335,7 +335,7 @@ let g:airline_section_z = airline#section#create(['%3p%%  ',
 let g:airline_section_warning = ''
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
-map <F7>:! gcc % -o %<.exe<CR>
+map <F7>:! gcc % -o %<<CR>
 
 let g:webdevicons_enable = 1
 let g:webdevicons_enable_nerdtree = 1
@@ -343,7 +343,6 @@ let g:webdevicons_enable_airline_tabline = 1
 let g:webdevicons_enable_airline_statusline = 1
 let g:webdevicons_conceal_nerdtree_brackets = 1
 
-map <F12>:e C:\Users\강정훈\AppData\Local\nvim\init.vim<CR>
 
  let g:solarized_termcolors=256
 
